@@ -155,18 +155,3 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
-.image-row {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.image-item {
-    text-align: center;
-}
-
-.interpolation-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-}
