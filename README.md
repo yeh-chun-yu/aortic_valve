@@ -5,7 +5,7 @@ This repository contains the source code for the project website of:
 **Deep Learning for Automated Detection of the Aortic Valve in Computed Tomography Imaging**
 
 Project website:  
-[Project website](https://github.com/yeh-chun-yu/aortic_valve_code)
+[https://github.com/yeh-chun-yu/aortic_valve](https://aortic_valve.github.io/)
 
 ## Acknowledgement
 
