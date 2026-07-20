@@ -168,20 +168,49 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<!--<section class="hero teaser">
   <div class="container is-max-widescreen">
     <div class="hero-body">
       <!--<video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/teaser.mp4"
                 type="video/mp4">
-      </video>-->
+      </video>
         <img src="./static/images/patient0051_0250.png"
              class="interpolation-image"
              style="width:800px;"/>
         <p style="text-align:center;">
         Original Image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Label Image
         </p>
-    <!--</div>-->
+    </div>
+  </div>
+</section>-->
+
+<section class="hero teaser">
+  <div class="container is-max-widescreen">
+    <div class="hero-body">
+
+      <div style="width: 800px; max-width: 100%; margin: 0 auto;">
+        <img
+          src="./static/images/patient0051_0250.png"
+          class="interpolation-image"
+          style="display: block; width: 100%;"
+          alt="Original and labeled CT images"
+        />
+
+        <div style="
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          width: 100%;
+          margin-top: 8px;
+          text-align: center;
+          font-size: 24px;
+        ">
+          <span>Original Image</span>
+          <span>Label Image</span>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
