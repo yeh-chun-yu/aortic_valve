@@ -179,7 +179,7 @@
              class="interpolation-image"
              style="width:800px;"/>
         <p style="text-align:center;">
-        Original Image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Label Image
+        Original Image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Label Image
         </p>
     <!--</div>-->
   </div>
@@ -252,31 +252,22 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Deep learning has been widely applied to medical image analysis and has shown
+            strong potential for computer-aided diagnosis. However, public datasets for aortic
+            valve detection in cardiac CT remain limited because image acquisition and anno
+            tation require specialized expertise. This study establishes an aortic valve object
+            detection dataset from cardiac CT images of 100 patients, including preprocessing,
+            manualannotation, and dataset splitting. YOLOv9, YOLOv11, and attention-based
+            YOLOv12 models of different scales are evaluated. To address the small size of the
+            aortic valve, YOLOv12-p5 is proposed by removing the P5 detection branch and
+            retaining P3 andP4. Mostmodelseffectivelylocalizetheaorticvalve. Inthesingle
+            model comparison, YOLOv12-p5 achieves Precision close to YOLOv12 but lower
+            Recall and mAP50:95, indicating that P5 semantic information remains useful. In
+            the five-fold ensemble comparison, YOLOv12-p5 achieves the highest Precision
+            and Recall and ties with YOLOv9 for the highest mAP50, although its mAP50:95 is
+            lower. Class activation mapping further shows that the model mainly focuses on
+            the aortic valve region. The dataset and workflow provide a reference for future
+            research on automatic aortic valve detection.
           </p>
         </div>
       </div>
