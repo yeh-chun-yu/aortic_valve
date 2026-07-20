@@ -198,62 +198,122 @@
 </section>
 
 
-<section class="hero is-light is-small">
+<section class="section">
+  <div class="container is-max-widescreen">
+
+    <h2 class="title is-3 has-text-centered">
+      Aortic Valve Annotation in Consecutive CT Slices
+    </h2>
+
+    <div class="content has-text-justified">
+      <p>
+        The following video presents consecutive cardiac CT slices from one
+        patient. The left side shows the original CT images, while the right
+        side shows the corresponding images with bounding-box annotations of
+        the aortic valve.
+      </p>
+    </div>
+
+    <div style="width: 1000px; max-width: 100%; margin: 30px auto 0;">
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        style="display: block; width: 100%; height: auto;"
+      >
+        <source
+          src="./static/video/compare_video.mp4"
+          type="video/mp4"
+        >
+        Your browser does not support the video tag.
+      </video>
+
+      <div style="
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+      ">
+        <span>Original CT Images</span>
+        <span>Aortic Valve Annotations</span>
+      </div>
+    </div>
+
+    <p
+      class="has-text-centered"
+      style="max-width: 900px; margin: 18px auto 0; font-size: 17px;"
+    >
+      Consecutive cardiac CT slices from one patient. The original CT images
+      are shown on the left, and the corresponding aortic valve bounding-box
+      annotations are shown on the right.
+    </p>
+
+  </div>
+</section>
+
+
+ <!--<section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/steve.mp4"-->
+            <!--<source src="./static/videos/steve.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-chair-tp">
           <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/chair-tp.mp4"-->
+            <!--<source src="./static/videos/chair-tp.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-shiba">
           <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/shiba.mp4"-->
+            <!--<source src="./static/videos/shiba.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/fullbody.mp4"-->
+            <!--<source src="./static/videos/fullbody.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-blueshirt">
           <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/blueshirt.mp4"-->
+            <!--<source src="./static/videos/blueshirt.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-mask">
           <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/mask.mp4"-->
+            <!--<source src="./static/videos/mask.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-coffee">
           <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/coffee.mp4"-->
+            <!--<source src="./static/videos/coffee.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-toby">
           <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/toby2.mp4"-->
+            <!--<source src="./static/videos/toby2.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 
 <section class="section">
@@ -311,15 +371,6 @@
             style="width: 100%; height: auto;"
           >
         </figure>
-    
-        <p
-          class="has-text-centered"
-          style="margin-top: 12px; font-size: 18px;"
-        >
-          Architecture of the proposed YOLOv12-p5 model. The P5 detection head is
-          removed, while the P3 and P4 detection heads are retained for aortic valve
-          detection.
-        </p>
     
       </div>
 </section>
