@@ -168,23 +168,6 @@
   </div>
 </section>
 
-<!--<section class="hero teaser">
-  <div class="container is-max-widescreen">
-    <div class="hero-body">
-      <!--<video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-        <img src="./static/images/patient0051_0250.png"
-             class="interpolation-image"
-             style="width:800px;"/>
-        <p style="text-align:center;">
-        Original Image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Label Image
-        </p>
-    </div>
-  </div>
-</section>-->
-
 <section class="hero teaser">
   <div class="container is-max-widescreen">
     <div class="hero-body">
@@ -301,29 +284,69 @@
         </div>
       </div>
     </div>
+</section>
+<section class="section">
+      <div class="container is-max-widescreen">
+    
+        <h2 class="title is-3 has-text-centered">
+          Proposed YOLOv12-p5 Architecture
+        </h2>
+    
+        <div class="content has-text-justified">
+          <p>
+            To adapt YOLOv12 to the aortic valve detection task, we propose
+            YOLOv12-p5 by removing the P5 detection head while retaining the
+            P3 and P4 detection heads. Since the aortic valve occupies a relatively
+            small region in cardiac CT images, the proposed architecture focuses on
+            higher-resolution feature maps for small-object localization and reduces
+            the computational complexity associated with the large-object detection
+            branch.
+          </p>
+        </div>
+    
+        <figure class="image" style="max-width: 1000px; margin: 30px auto 0;">
+          <img
+            src="./static/images/yolo12_architecture.png"
+            alt="Architecture of the proposed YOLOv12-p5 model"
+            style="width: 100%; height: auto;"
+          >
+        </figure>
+    
+        <p
+          class="has-text-centered"
+          style="margin-top: 12px; font-size: 18px;"
+        >
+          Architecture of the proposed YOLOv12-p5 model. The P5 detection head is
+          removed, while the P3 and P4 detection heads are retained for aortic valve
+          detection.
+        </p>
+    
+      </div>
+</section>
+    
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- Paper video. 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
           <!--<iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!--/ Paper video. 
   </div>
 </section>
 
 
-<section class="section">
+<!--<section class="section">
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+      <!-- Visual Effects. 
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
@@ -332,14 +355,14 @@
             would be impossible without nerfies since it would require going through a wall.
           </p>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <!--<source src="./static/videos/dollyzoom-stacked.mp4"-->
+            <!--<source src="./static/videos/dollyzoom-stacked.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
       <!--/ Visual Effects. -->
 
-      <!-- Matting. -->
+      <!-- Matting. 
       <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
@@ -349,7 +372,7 @@
               samples that fall outside of a bounding box during rendering.
             </p>
             <video id="matting-video" controls playsinline height="100%">
-              <!--<source src="./static/videos/matting.mp4"-->
+              <!--<source src="./static/videos/matting.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -391,7 +414,7 @@
             <!--<img src="./static/images/interpolate_end.jpg"
                  class="interpolation-image"
                  alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>-->
+            <p class="is-bold">End Frame</p>
           </div>
         </div>
         <br/>
@@ -423,7 +446,7 @@
     <!--/ Animation. 
     -->
 
-    <!-- Concurrent Work. -->
+    <!-- Concurrent Work. 
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
@@ -445,10 +468,10 @@
           <p>
             There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
           </p>
-        </div>-->
+        </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+    <!--/ Concurrent Work. 
 
   </div>
 </section>
