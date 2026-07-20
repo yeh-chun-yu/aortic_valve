@@ -374,6 +374,66 @@
     
       </div>
 </section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+
+    <h2 class="title is-3 has-text-centered">
+      Class Activation Map Visualization
+    </h2>
+
+    <div class="content has-text-justified">
+      <p>
+        To analyze the regions considered important by the detection model,
+        Eigen-CAM and Grad-CAM are used to visualize the model's attention.
+        The original cardiac CT image is shown on the left, while the
+        Eigen-CAM and Grad-CAM visualization results are shown in the middle
+        and on the right, respectively.
+      </p>
+    </div>
+
+    <div style="width: 1000px; max-width: 100%; margin: 30px auto 0;">
+
+      <img
+        src="./static/images/CAM1.png"
+        alt="Comparison of the original CT image, Eigen-CAM, and Grad-CAM"
+        style="
+          display: block;
+          width: 100%;
+          height: auto;
+        "
+      >
+
+      <div style="
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+      ">
+        <span>Original CT Image</span>
+        <span>Eigen-CAM</span>
+        <span>Grad-CAM</span>
+      </div>
+
+    </div>
+
+    <p
+      class="has-text-centered"
+      style="
+        max-width: 900px;
+        margin: 18px auto 0;
+        font-size: 17px;
+      "
+    >
+      Visualization of the model's attention regions. Warmer regions indicate
+      areas that contribute more strongly to the detection of the aortic valve.
+    </p>
+
+  </div>
+</section>
     
     <!--/ Abstract. -->
 
