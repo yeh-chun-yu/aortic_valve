@@ -2,7 +2,7 @@
 
 This repository contains the source code for the project website of:
 
-**Deep Learning for Automated Detection of the Aortic Valve in Computed Tomography Imaging**
+**YOLO-Based Aortic Valve Object Detection in Cardiac Computed Tomography Images**
 
 Project website:  
 [Aortic Valve Detection](https://yeh-chun-yu.github.io/aortic_valve/)
